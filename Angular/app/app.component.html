@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<input type="text" [(ngModel)]="num1" placeholder="Enter number1"><br>
+<input type="text" [(ngModel)]="num2" placeholder="Enter number2"><br>
+
+<button type = "button" (click)= "add()"> + </button>
+<button type = "button" (click)= "sub()"> - </button>
+<button type = "button" (click)= "mult()"> * </button>
+<button type = "button" (click)= "div()"> / </button>
+<button type = "button" (click)= "mod()"> % </button>
+{{result}}
